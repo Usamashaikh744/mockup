@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    display: flex;
+    margin-top: 5%;
+}
+.rig{
+    text-align: right;
+    margin: 5% 5%;
+    margin-bottom: -6%;
+    color: #a2adc7;
+}
+.firstside h1{
+    color: #262e43;
+    font-size: 2.3rem;
+
+}
+
+.btn{
+    background-color: #1a104e;
+    color: white;
+    height: 3em;
+    cursor: pointer;
+    width: 13em;
+    margin: 4% 0px;
+    border: none;border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: #6136a7;
+    color: white;
+}
+.peragraph{
+    padding-right: 60%;
+    font-size: 1em;
+    color: #a7acb9;
+}
+h3{    color: #6383f1;
+}
+
+.firstside{
+    margin-left: 5%;
+    margin-bottom: 0px;
+}
+
+.secondside{
+    margin-left: 20%;
+    position: relative;
+    /* background-image: url(circle.png); */
+}
+
+.secondside img{
+    position: absolute;
+    top: -7em;
+}
+.rating h1{
+    color: #537cfa;
+    font-size: 1.5em;
+}
+
+.rating-rate{
+    position: absolute;
+    left: 9em;
+}
+
+.rate h1{
+    color: #de424d;
+    font-size: 1.5em;  
+}
+
+.rating p, .rate p{
+    color: #acb0b9;    font-size: 11px;
+    margin-right: 0px;
+    margin-top: 50px;
+    padding-right: 9px;
+}
+
+.lastp{
+    text-align: right;
+    font-size: 15px;
+    color: #adb5c8;
+    padding: 2px 69px;
+    margin-left: 20px;
+}
+
+.lps{
+    color: #adb5c8;
+    padding: 9px;
+    font-size: 11px;
+    margin-inline-start: 22px;
+    margin-top: 38px;
+}
+
+.rating{
+    margin-top: 75px;
+}
